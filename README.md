@@ -55,4 +55,34 @@ s[0:3]
 ```
 <img width="113" height="140" alt="image" src="https://github.com/user-attachments/assets/f055e302-1833-486b-9bc5-1f27c3fb5f9c" />
 
+### Returning last element of series
+```
+s[-1:]
+```
+<img width="105" height="69" alt="image" src="https://github.com/user-attachments/assets/0beb6f89-e32a-425b-87ce-606194fb73c6" />
+
+## Operation on Series
+```
+v1 = np.array([10,20,30])
+v2 = np.array([1,2,3])
+s1 = pd.Series(v1) 
+s2 = pd.Series(v2)
+s1 , s2
+```
+<img width="118" height="133" alt="image" src="https://github.com/user-attachments/assets/b7deac24-471e-408c-831f-d103ba26a715" />
+
+### Addition of two series
+```
+s1.add(s2)
+```
+<img width="71" height="126" alt="image" src="https://github.com/user-attachments/assets/1cc9129a-e0f1-4bdf-bd2d-a2133f33729f" />
+
+### Subtraction of two series
+```
+s1.sub(s2)
+# or
+s1.subtract(s2)
+```
+<img width="54" height="124" alt="image" src="https://github.com/user-attachments/assets/ecdb29da-3a6f-4c8a-be88-b24aba85f89f" />
+
 ### 
